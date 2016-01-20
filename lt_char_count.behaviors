@@ -1,0 +1,5 @@
+[
+ [:app :lt.objs.plugins/load-js "lt_char_count_compiled.js"]
+ [:lt-char-count.hello :lt.plugins.lt-char-count/on-close-destroy]
+  [:editor :lt.plugins.lt-char-count/attach]
+ ]
